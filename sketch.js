@@ -22,7 +22,7 @@ function mousePressed()
 {
 	gameChar_x = mouseX;
 	gameChar_y = mouseY;
-	cat = new Cat(gameChar_x, gameChar_y);
+	cat = new Cat(gameChar_x - 100, gameChar_y - 160);
 }
 
 class Cat {
